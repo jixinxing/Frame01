@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:background="#eee"
+    android:orientation="vertical">
+
+    <com.star.app5.widget.TopBarView
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        custom:titleText="我的设置"
+        custom:titleSize="16sp"
+        custom:titleColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="右侧栏"
+        android:gravity="center"
+        android:textSize="30sp"/>
+
+
+</LinearLayout>

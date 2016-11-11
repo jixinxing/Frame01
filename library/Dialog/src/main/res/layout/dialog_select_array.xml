@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:padding="5dip" >
+
+    <ListView
+        android:id="@+id/city_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:dividerHeight = "0.5px"
+        android:layout_above="@+id/cancle_btn"
+        android:background="@drawable/select_array_dialog_radius"/>
+    
+
+    <Button
+        android:id="@+id/cancle_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dip"
+        android:text="取消"
+        android:textSize="14sp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/select_array_dialog_radius"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">app5</string>
+
+    <string name="no_net">Currently no network available</string>
+
+    <string name="weixin">WeChat</string>
+</resources>

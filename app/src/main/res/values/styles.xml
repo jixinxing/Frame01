@@ -1,0 +1,32 @@
+<resources>
+
+
+        <!-- Base application theme. -->
+        <style name="AppTheme" parent="AppTheme.Base">
+            <!-- Customize your theme here. -->
+
+        </style>
+        <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="colorPrimaryDark">#000000</item>
+        </style>
+
+    <!-- 自定义loading dialog -->
+    <style name="network_request_dialog_style" >
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="mystyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/custom_dialog_bg</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+
+</resources>

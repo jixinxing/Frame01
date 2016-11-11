@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red"
+    android:gravity="center"><!--android:minHeight="?attr/actionBarSize"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/red">
+        <ImageButton
+            android:id="@+id/id_iv_left"
+            android:layout_width="@dimen/top_bar_image_size"
+            android:layout_height="@dimen/top_bar_image_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/top_bar_margin"
+            android:background="@drawable/showright_selector"
+            android:onClick="showLeftMenu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/weixin"
+            android:textColor="@color/white"
+            android:textSize="@dimen/big_font_size" />
+
+        <ImageButton
+            android:id="@+id/id_iv_right"
+            android:layout_width="@dimen/top_bar_image_size"
+            android:layout_height="@dimen/top_bar_image_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/top_bar_margin"
+            android:background="@drawable/showleft_selector"
+            android:onClick="showRightMenu" />
+    </RelativeLayout>
+
+</LinearLayout>

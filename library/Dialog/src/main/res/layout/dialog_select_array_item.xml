@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+	
+	<TextView
+        android:id="@+id/city_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="苏州"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#000000"
+		android:background="@drawable/select_array_dialog_radius"/>
+
+  
+</LinearLayout> 

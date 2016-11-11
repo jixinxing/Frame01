@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/library/Dialog/Dialog.iml" filepath="$PROJECT_DIR$/library/Dialog/Dialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Frame01.iml" filepath="$PROJECT_DIR$/Frame01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/Grant/Grant.iml" filepath="$PROJECT_DIR$/library/Grant/Grant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app5.iml" filepath="$PROJECT_DIR$/app/app5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+    </modules>
+  </component>
+</project>
