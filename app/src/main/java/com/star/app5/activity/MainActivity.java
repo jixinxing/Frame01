@@ -189,6 +189,7 @@ public class MainActivity extends FragmentActivity {
         if (params == null) {
             params = new ViewGroup.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT,
+
                     ViewGroup.LayoutParams.WRAP_CONTENT);
         }
         int childWidthSpec = ViewGroup.getChildMeasureSpec(0, 0 + 0,
