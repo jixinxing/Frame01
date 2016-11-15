@@ -16,9 +16,9 @@ import android.widget.LinearLayout;
 
 
 import com.star.app5.R;
-import com.star.app5.activity.base.BaseActivity;
+import com.star.app5.activity.left.MenuLeftFragment;
+import com.star.app5.activity.right.MenuRightFragment;
 import com.star.app5.widget.CustomDialog;
-import com.star.dialog.SelectArrayDialog;
 
 public class MainActivity extends FragmentActivity {
     private DrawerLayout drawerLayout;

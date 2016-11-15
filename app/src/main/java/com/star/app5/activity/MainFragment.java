@@ -23,6 +23,7 @@ import com.star.app5.adapter.MainViewPagerAdapter;
 import com.star.app5.constant.URL;
 import com.star.app5.utils.HttpClient;
 import com.star.app5.utils.LogUtil;
+import com.star.app5.widget.CustomToast;
 
 import org.xutils.http.RequestParams;
 
@@ -47,6 +48,9 @@ public class MainFragment extends Fragment {
         initViewPager(view);
 
         request();
+
+        CustomToast.showToast(this.getActivity(),"MainFragment");
+
         return view;
     }
 

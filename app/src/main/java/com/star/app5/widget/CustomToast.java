@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.star.app5.R;
+import com.star.app5.constant.MyApp;
 
 
 /**
@@ -31,6 +32,7 @@ public class CustomToast {
     public static void  showToast(Context context, String tvString){
 
         DisplayMetrics dm = new DisplayMetrics();
+
         ((Activity)context).getWindowManager().getDefaultDisplay().getMetrics(dm);
         int width = dm.widthPixels;    //得到宽度
         int height = dm.heightPixels;  //得到高度
@@ -39,7 +41,8 @@ public class CustomToast {
         TextView text = (TextView) layout.findViewById(R.id.text);
         text.setText(tvString);
         text.setTextColor(Color.parseColor("#ffffff"));
-        toast = new Toast(context);
+
+        toast=new Toast(context);
         toast.setGravity(Gravity.CENTER_VERTICAL|Gravity.TOP, 0, (height/4)*3);
         toast.setDuration(Toast.LENGTH_SHORT);
         toast.setView(layout);
