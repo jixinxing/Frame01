@@ -14,7 +14,6 @@
             <option value="$PROJECT_DIR$/library/Dialog" />
             <option value="$PROJECT_DIR$/library/Grant" />
             <option value="$PROJECT_DIR$/library/LRecyclerview" />
-            <option value="$PROJECT_DIR$/library/SwipeRecyleview" />
           </set>
         </option>
         <option name="myModules">
@@ -25,7 +24,6 @@
             <option value="$PROJECT_DIR$/library/Dialog" />
             <option value="$PROJECT_DIR$/library/Grant" />
             <option value="$PROJECT_DIR$/library/LRecyclerview" />
-            <option value="$PROJECT_DIR$/library/SwipeRecyleview" />
           </set>
         </option>
       </GradleProjectSettings>

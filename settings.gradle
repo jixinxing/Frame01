@@ -1,1 +1,1 @@
-include ':app', ':library:Grant', ':library:Dialog', ':library:SwipeRecyleview', ':library:LRecyclerview'
+include ':app', ':library:Grant', ':library:Dialog', ':library:LRecyclerview'
