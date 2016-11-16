@@ -22,10 +22,10 @@
             app:tabSelectedTextColor="#ff0000"
             app:tabTextColor="#ffffff" />
 
-        <android.support.v4.view.ViewPager
+        <com.star.app5.widget.CustomViewPager
             android:id="@+id/id_viewpager"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+            android:layout_height="match_parent"></com.star.app5.widget.CustomViewPager>
 
     </LinearLayout>
 

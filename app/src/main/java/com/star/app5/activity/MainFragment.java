@@ -24,6 +24,7 @@ import com.star.app5.constant.URL;
 import com.star.app5.utils.HttpClient;
 import com.star.app5.utils.LogUtil;
 import com.star.app5.widget.CustomToast;
+import com.star.app5.widget.CustomViewPager;
 
 import org.xutils.http.RequestParams;
 
@@ -32,7 +33,7 @@ import org.xutils.http.RequestParams;
  */
 public class MainFragment extends Fragment {
     private Activity activity;
-    private ViewPager mViewPager;
+    private CustomViewPager mViewPager;
     private TabLayout tabLayout;
     private MainViewPagerAdapter adapter;
     private List<Fragment> fragmentList = new ArrayList<>();
@@ -55,7 +56,7 @@ public class MainFragment extends Fragment {
     }
 
     private void initViewPager(View view) {
-        mViewPager = (ViewPager)view. findViewById(R.id.id_viewpager);
+        mViewPager = (CustomViewPager)view. findViewById(R.id.id_viewpager);
         tabLayout = (TabLayout) view.findViewById(R.id.tab_FindFragment_title);
 
         MainFragmentTab01 tab01 = new MainFragmentTab01();
@@ -88,6 +89,7 @@ public class MainFragment extends Fragment {
         titleList.add("标题88");
         titleList.add("标题99");
 
+        mViewPager.setScrollble(false);
 
         /**
          * 初始化Adapter
